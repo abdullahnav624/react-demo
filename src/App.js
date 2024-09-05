@@ -1,8 +1,11 @@
+import NavbarComponenet from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div>
-      <h1>ABDULLAH NAVEED</h1>
+      <NavbarComponenet/>
     </div>
   );
 }
